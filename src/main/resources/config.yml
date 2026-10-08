@@ -1,0 +1,304 @@
+# ============================================
+#  SoulsMine — настройки крафта
+# ============================================
+
+block-shift-craft: true
+shift-craft-message: "&cЭтот предмет нельзя крафтить стаком. Крафти по одному."
+
+items:
+
+  IRON_SWORD:
+    display-name: "Железный меч"
+    rarities:
+      common:
+        name: "Обычный"
+        color: "&7"
+        chance: 55
+        enchants:
+          DAMAGE_ALL: 1
+        extra-damage: 2
+        lore:
+          - "&8Простой, но рабочий клинок."
+      uncommon:
+        name: "Необычный"
+        color: "&a"
+        chance: 25
+        enchants:
+          DAMAGE_ALL: 3
+          DURABILITY: 1
+        extra-damage: 5
+        lore:
+          - "&8Сталь закалена чуть лучше обычной."
+      rare:
+        name: "Редкий"
+        color: "&9"
+        chance: 12
+        enchants:
+          DAMAGE_ALL: 5
+          DURABILITY: 2
+          KNOCKBACK: 1
+        extra-damage: 8
+        lore:
+          - "&8Оружие, достойное ветерана."
+      epic:
+        name: "Эпический"
+        color: "&5"
+        chance: 6
+        enchants:
+          DAMAGE_ALL: 7
+          DURABILITY: 3
+          FIRE_ASPECT: 1
+          KNOCKBACK: 1
+        extra-damage: 11
+        lore:
+          - "&8Клинок, пропитанный древней магией."
+      legendary:
+        name: "Легендарный"
+        color: "&6"
+        chance: 2
+        enchants:
+          DAMAGE_ALL: 10
+          DURABILITY: 3
+          FIRE_ASPECT: 2
+          KNOCKBACK: 2
+        extra-damage: 15
+        lore:
+          - "&8Легенда гласит, что этот клинок"
+          - "&8ковался в пламени самого SoulsMine."
+
+  DIAMOND_SWORD:
+    display-name: "Алмазный меч"
+    rarities:
+      common:
+        name: "Обычный"
+        color: "&7"
+        chance: 50
+        enchants:
+          DAMAGE_ALL: 2
+        extra-damage: 3
+        lore:
+          - "&8Алмаз — крепче стали."
+      uncommon:
+        name: "Необычный"
+        color: "&a"
+        chance: 28
+        enchants:
+          DAMAGE_ALL: 4
+          DURABILITY: 2
+        extra-damage: 6
+        lore:
+          - "&8Хорошо сбалансированный клинок."
+      rare:
+        name: "Редкий"
+        color: "&9"
+        chance: 14
+        enchants:
+          DAMAGE_ALL: 6
+          DURABILITY: 3
+          FIRE_ASPECT: 1
+        extra-damage: 9
+        lore:
+          - "&8Алмаз, закалённый магией."
+      epic:
+        name: "Эпический"
+        color: "&5"
+        chance: 6
+        enchants:
+          DAMAGE_ALL: 8
+          DURABILITY: 3
+          FIRE_ASPECT: 2
+          KNOCKBACK: 1
+        extra-damage: 13
+        lore:
+          - "&8Клинок из легенд."
+      legendary:
+        name: "Легендарный"
+        color: "&6"
+        chance: 2
+        enchants:
+          DAMAGE_ALL: 12
+          DURABILITY: 3
+          FIRE_ASPECT: 2
+          KNOCKBACK: 2
+          LOOT_BONUS_MOBS: 3
+        extra-damage: 18
+        lore:
+          - "&8Алмазный клинок, достойный героя."
+
+  BOW:
+    display-name: "Лук"
+    rarities:
+      common:
+        name: "Обычный"
+        color: "&7"
+        chance: 55
+        enchants:
+          ARROW_DAMAGE: 1
+        extra-damage: 1
+        lore:
+          - "&8Простой охотничий лук."
+      uncommon:
+        name: "Необычный"
+        color: "&a"
+        chance: 25
+        enchants:
+          ARROW_DAMAGE: 2
+          DURABILITY: 1
+        extra-damage: 2
+        lore:
+          - "&8Лук опытного стрелка."
+      rare:
+        name: "Редкий"
+        color: "&9"
+        chance: 12
+        enchants:
+          ARROW_DAMAGE: 3
+          ARROW_FIRE: 1
+          DURABILITY: 2
+        extra-damage: 3
+        lore:
+          - "&8Пылающие стрелы."
+      epic:
+        name: "Эпический"
+        color: "&5"
+        chance: 6
+        enchants:
+          ARROW_DAMAGE: 4
+          ARROW_FIRE: 1
+          ARROW_KNOCKBACK: 1
+          DURABILITY: 3
+        extra-damage: 4
+        lore:
+          - "&8Лук, пронзающий ветер."
+      legendary:
+        name: "Легендарный"
+        color: "&6"
+        chance: 2
+        enchants:
+          ARROW_DAMAGE: 5
+          ARROW_FIRE: 2
+          ARROW_KNOCKBACK: 2
+          DURABILITY: 3
+          ARROW_INFINITE: 1
+        extra-damage: 6
+        lore:
+          - "&8Лук, стреляющий без промаха."
+
+  IRON_CHESTPLATE:
+    display-name: "Железный нагрудник"
+    rarities:
+      common:
+        name: "Обычный"
+        color: "&7"
+        chance: 55
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        extra-damage: 0
+        lore:
+          - "&8Простая защита."
+      uncommon:
+        name: "Необычный"
+        color: "&a"
+        chance: 25
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+        extra-damage: 0
+        lore:
+          - "&8Хорошая броня."
+      rare:
+        name: "Редкий"
+        color: "&9"
+        chance: 12
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 2
+          THORNS: 1
+        extra-damage: 0
+        lore:
+          - "&8Броня с шипами."
+      epic:
+        name: "Эпический"
+        color: "&5"
+        chance: 6
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+          THORNS: 2
+          PROTECTION_FIRE: 2
+        extra-damage: 0
+        lore:
+          - "&8Броня, опалённая огнём."
+      legendary:
+        name: "Легендарный"
+        color: "&6"
+        chance: 2
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 5
+          DURABILITY: 3
+          THORNS: 3
+          PROTECTION_FIRE: 3
+          PROTECTION_FALL: 3
+        extra-damage: 0
+        lore:
+          - "&8Броня, непробиваемая ничем."
+
+effects:
+  sound: BLOCK_ANVIL_USE
+  sound-volume: 1.0
+  sound-pitch: 1.2
+  particle: ENCHANTMENT_TABLE
+  particle-count: 20
+  # ---------- ПОСОХ ОГНЯ ----------
+  # Крафтится: палка + 2 алмаза + 2 огненных порошка + звезда Незера
+  BLAZE_ROD:
+    display-name: "Посох Огня"
+    staff-spell: "fireball"
+    rarities:
+      common:
+        name: "Обычный"
+        color: "&7"
+        chance: 70
+        enchants:
+          DURABILITY: 1
+        extra-damage: 0
+        lore:
+          - "&8Простой посох, искрит огнём."
+      uncommon:
+        name: "Необычный"
+        color: "&a"
+        chance: 20
+        enchants:
+          DURABILITY: 2
+        extra-damage: 0
+        lore:
+          - "&8Огонь слушается крепче."
+      rare:
+        name: "Редкий"
+        color: "&9"
+        chance: 7
+        enchants:
+          DURABILITY: 3
+        extra-damage: 0
+        lore:
+          - "&8Пламя пляшет вокруг посоха."
+      epic:
+        name: "Эпический"
+        color: "&5"
+        chance: 2.5
+        enchants:
+          DURABILITY: 3
+          FIRE_ASPECT: 1
+        extra-damage: 0
+        lore:
+          - "&8Посох, дышащий древним огнём."
+      legendary:
+        name: "Легендарный"
+        color: "&6"
+        chance: 0.5
+        enchants:
+          DURABILITY: 3
+          FIRE_ASPECT: 2
+        extra-damage: 0
+        lore:
+          - "&8Посох самого Владыки Пламени."

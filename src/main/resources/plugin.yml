@@ -1,0 +1,17 @@
+name: SoulsMine
+version: 1.0.0
+main: ru.soulsmine.core.SoulsMine
+api-version: 1.12
+author: SoulsMine
+description: Craft rarity system
+
+commands:
+  soulsmine:
+    description: Управление плагином
+    usage: /soulsmine reload
+    permission: soulsmine.admin
+
+permissions:
+  soulsmine.admin:
+    description: Доступ к админ-командам
+    default: op
